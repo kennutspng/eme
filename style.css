@@ -28,12 +28,6 @@ body {
     color: #ff4f81;
     margin-bottom: 20px;
 }
-
-.bear {
-    width: 150px;
-    margin: 10px 0;
-}
-
 .question {
     margin: 15px 0;
     color: #444;
@@ -83,4 +77,5 @@ body {
 
 .sub-text {
     color: #555;
+
 }
