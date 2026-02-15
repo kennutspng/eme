@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f8c8dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: #f4f4f4;
+    width: 90%;
+    max-width: 380px;
+    padding: 30px 20px;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    transition: 0.5s;
+}
+
+.title {
+    color: #ff4f81;
+    margin-bottom: 20px;
+}
+
+.bear {
+    width: 150px;
+    margin: 10px 0;
+}
+
+.question {
+    margin: 15px 0;
+    color: #444;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+/* YES button */
+.yes-btn {
+    background: #28c76f;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* NO button */
+.no-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Love screen */
+.hidden {
+    display: none;
+}
+
+.love-text {
+    color: #ff2e63;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.sub-text {
+    color: #555;
+}
